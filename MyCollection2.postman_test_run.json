@@ -1,0 +1,115 @@
+{
+	"id": "d6c3be74-ad12-472b-801b-22787d267223",
+	"name": "MyCollection",
+	"timestamp": "2024-11-13T05:05:25.036Z",
+	"collection_id": "39632939-7b281675-a84d-41fd-a3d5-379a72bf0f10",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 3,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-11-13T05:05:23.833Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e0d90776-80ae-4b87-8180-2a867d2d8737",
+			"name": "GetUSer",
+			"url": "https://reqres.in/api/users",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7fdf1a05-7b19-46e8-acb9-d86f626698fb",
+			"name": "CreateUser",
+			"url": "https://reqres.in/api/users",
+			"time": 324,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				324
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "95ab6dce-9310-40d0-bd14-d29d5ac4ae18",
+			"name": "DeleteUser",
+			"url": "https://reqres.in/api/users/2",
+			"time": 314,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				314
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 661,
+	"collection": {
+		"requests": [
+			{
+				"id": "e0d90776-80ae-4b87-8180-2a867d2d8737",
+				"method": "GET"
+			},
+			{
+				"id": "7fdf1a05-7b19-46e8-acb9-d86f626698fb",
+				"method": "POST"
+			},
+			{
+				"id": "95ab6dce-9310-40d0-bd14-d29d5ac4ae18",
+				"method": "DELETE"
+			}
+		]
+	}
+}
